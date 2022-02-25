@@ -1,0 +1,47 @@
+#footer img{
+    width: 20rem;
+}
+
+#top_btn{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 60%;
+    height: 3rem;
+    border: 1px solid rgba(61, 61, 61, 0.918);
+}
+#top_btn a:hover{
+    background: linear-gradient(50deg,rgb(153, 0, 255), rgb(238, 255, 0));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+#top_btn svg:hover{
+    fill:yellow;
+}
+#contect_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
+    width: auto;
+}
+
+#contect_div ul{
+    background-color: black;
+    padding: 3rem;
+    border-radius: 40px;
+    border: 1px solid rgba(61, 61, 61, 0.918);
+}
+#contect_div li{
+    font-size: larger;
+    padding: 1rem;
+    color: white;
+}
+
+#contect_div a{
+    color: white;
+    text-decoration: none;
+}
+
+

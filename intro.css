@@ -1,0 +1,49 @@
+#main-img{
+    background-color: #121212;
+    position: relative;
+    padding: 5rem 1rem;
+    width: 100%;
+    height: 60vh;
+}
+
+#main-img img{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    width: 60%;
+    height: auto;
+}
+
+#hello{
+    background-color: #121212;
+    color: white;
+}
+
+#hello h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    width: 50%;
+    height: auto;
+    padding: 3rem 0;
+    background: linear-gradient(50deg,rgb(153, 0, 255), rgb(238, 255, 0));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+@media screen and (max-width: 860px) {
+    #main-img{
+        height: 20vh;   
+    }
+
+    #main-img img{
+        width: 40%;
+        height: auto;
+    }
+
+    #hello h1{
+        font-size: 2.7rem;
+        width: 100%;
+        padding-bottom: 0.5rem;
+        margin: 0 0.1rem;
+    }
+}
