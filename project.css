@@ -10,6 +10,9 @@
     border-radius: 20px;
 }
 
+#mobile_img{
+    display: none;
+}
 #explanation{
     padding: 6rem 2rem;
 }
@@ -68,4 +71,15 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@media screen and (max-width: 988px ) {
+    #mobile_img{
+        display: block;
+    }
+
+    #web_img{
+        display: none;
+    }
+
 }
