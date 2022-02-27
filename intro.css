@@ -30,6 +30,10 @@
     -webkit-background-clip: text;
 }
 
+#hello p{
+    font-family: 'DungGeunMo';
+}
+
 @media screen and (max-width: 860px) {
     #main-img{
         height: 20vh;   
