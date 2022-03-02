@@ -49,12 +49,15 @@
    #message_box a{
     font-size: medium;
    }
-   
+   #contect_div{
+       display: flex;
+       align-items: center;
+   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     #footer object{
-        width: 23rem;
+        width: 90%; 
         height: auto;
     }
 }
